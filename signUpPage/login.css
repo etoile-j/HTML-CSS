@@ -1,0 +1,82 @@
+header {
+    text-align: center;
+    color: rgb(23, 193, 23);
+}
+.naver {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(23, 193, 23);
+}
+
+body {
+    background-color: whitesmoke;
+    font-size: 15px;
+    color: lightslategray;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    height: 210px;
+    width: 385px;
+    border: 1px solid rgb(169, 173, 176);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    height: 38px;
+    width: 365px;
+    padding-left: 15px;
+    border: 1px solid rgb(169, 173, 176);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+input[type="password"] {
+    height: 38px;
+    width: 365px;
+    padding-left: 15px;
+    border: 1px solid rgb(169, 173, 176);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(23, 193, 23);
+    padding: 14px 166px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color:azure;
+    opacity: 1;
+}
+button:hover {
+    opacity: 0.9;
+}
+
+footer {
+    text-align: center;
+}
+a.pw{
+    padding-right: 10px;
+}
+a.id {
+    border-left: 1px solid rgb(169, 173, 176);
+    border-right: 1px solid rgb(169, 173, 176);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a.sign {
+    text-decoration: none;
+    color: lightslategray;
+    padding-left: 10px;
+}
