@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <header>
+        <h1>나와 잘 맞는 회사는?</h1>
+        가고 싶은 회사에 대한 호감도를 조사합니다.
+    </header>
+    <main>
+        <section>
+            <label for="radio"><h3>다음 문자 중 왠지 마음에 드는 것 하나 고르기</h3></label>
+            <p><input type="radio" name="radio" id="radio"> 네</p>
+            <p><input type="radio" name="radio" id="radio"> 카</p>
+            <p><input type="radio" name="radio" id="radio"> 라</p>
+            <p><input type="radio" name="radio" id="radio"> 쿠</p>
+            <p><input type="radio" name="radio" id="radio"> 베</p>
+        </section>
+        <section>
+            <label for="checkbox"><h3>친구와 문자를 합니다. 어떤 메신저를 이용하시겠습니까? 모두 골라주세요</h3></label>
+            <p><input type="checkbox" name="checkbox" id="checkbox"> 카카오톡</p>
+            <p><input type="checkbox" name="checkbox" id="checkbox"> 라인</p>
+            <p><input type="checkbox" name="checkbox" id="checkbox"> 인스타그램 디엠</p>
+            <p><input type="checkbox" name="checkbox" id="checkbox"> 네이트온</p>
+            <p><input type="checkbox" name="checkbox" id="checkbox"> 버디버디</p>
+        </section>
+        <section>
+            <label for="text_short"><h3>면접에서 자신의 포부를 한 문장으로 얘기한다면?</h3></label>
+            <p><input type="text" name="text_short" id="text_short"></p>
+        </section>
+        <section>
+            <label for="text_long"><h3>한 기업의 최종 면접을 앞두고 있는 당신. 면접장에 들어가기 직전, 자기 자신에게 해주고 싶은 말은?</h3></label>
+            <p><input type="text" name="text_long" id="text_long"></p>
+        </section>
+        <section>
+                <label for="skills"><h3>다음 중 기술면접에서 듣고 싶은 질문이 아닌 것은?</h3></label>
+                <select name="skills" id="skills">
+                  <option value="choice" selected>선택</option>
+                  <option value="html">HTML</option>
+                  <option value="css">CSS</option>
+                  <option value="javascript">Javascript</option>
+                </select>
+        </section>
+        <section>
+            <label for="day"><h3>취업을 희망하는 날짜를 선택해주세요</h3></label>
+            <p><input type="date" name="day" id="day"></p>
+        </section>
+        <section>
+            <label for="day"><h3>업무를 시작하기에 가장 적당한 시간을 고르세요</h3></label>
+            <p><input type="time" name="day" id="day"></p>
+        </section>
+        <footer>
+            <input type="submit" value="제출">
+        </footer>
+    </main>
+
+</body>
+</html>
