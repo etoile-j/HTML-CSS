@@ -1,0 +1,72 @@
+body {
+    background-color: #e9e4df;
+    color: #434a54;
+}
+
+header {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 875px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+table {
+    display:inline-table;
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+table:hover {
+    opacity: 1;
+}
+.april, .june {
+    margin-right: 50px;
+}
+
+h3 {
+    font-size: 45px;
+    color: #111f9a;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+th {
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+    letter-spacing: 3px;    /* 자간 */
+    width: 54px;
+    padding-bottom: 5px;
+}
+
+td {
+    font-size: 20px;
+    letter-spacing: 1px;
+    vertical-align: top;
+    height: 53px;
+    padding-left: 7px;
+}
+
+.anni {
+    font-size: 10px;
+    letter-spacing: 0;
+    margin: 0;
+}
+.sun {
+    color: red;
+    /* color: #1d27e1; */
+}
+.double {
+    color: red;
+    font-size: 16px;
+}
