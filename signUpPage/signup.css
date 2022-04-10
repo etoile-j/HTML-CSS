@@ -25,14 +25,25 @@ section {
 
 h4 {
     margin-block-end: 7px;
+    font-size: 14px;
 }
 
-input {
+input, select[name="gender"], select[name="nation"] {
     width: 410px;
     height: 45px;
     border-style: none;
     border: 1px solid rgb(221, 224, 226);
     text-indent: 10px;
+    margin-bottom: 5px;
+}
+ 
+input#year, select[name="month"], input#day  {
+    width: 125px;
+    height: 45px;
+    border-style: none;
+    border: 1px solid rgb(221, 224, 226);
+    text-indent: 10px;
+    margin-bottom: 5px;
 }
 
 button {
