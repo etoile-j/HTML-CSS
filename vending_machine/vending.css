@@ -19,94 +19,161 @@ h1 {
     margin: 0;
 }
 
+
 /* first */
 .white {
-    background-color: whitesmoke;
-    width: 370px;
+    background-color: #FFFFFF;
+    width: 360px;
     margin: 0 auto;
 }
+.white.first {
+    height: 545px;
+}
 
+.colaBoxes {
+  margin: 23px;
+}
 .colaBox {
-    display: inline-table;
-    width: 100px;
-    height: 150px;
-    border: 2px solid #e1e6ea;
+    display: inline-block;
+    width: 94px;
+    height: 130px;
     border-radius: 10px;
-    /* box-shadow: 1px -1px 1px 1px #e1e6ea; */
-    margin-bottom: 10px;
+    box-shadow: 0 0 5px -3px rgba(0,0,0,1);
+    margin: 4px;
     text-align: center;
 }
+.colaBox>img {
+    margin-top: 10px;
+}
+.colaBox>p {
+    font-size: 9px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
 .price {
+    display: inline-block;
     background-color: #0e7be3;
-    color: whitesmoke;
-    font-size: 15px;
-    padding: 5px 15px;
-    border-radius: 20px
+    width: 70px;
+    height: 22px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 50px;
 }
 
+.first2 {
+    margin: 23px;
+}
 .showValue {
     display: inline-block;
     background-color: #D6E5FA;
     width: 200px;
-    height: 35px;
-    padding-left: 10px;
+    height: 33px;
     line-height: 35px;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 500;
+    text-indent: 10px;
     border-radius: 7px;
+    margin-right: 12px;
+    margin-bottom: 11px;
 }
 input {
     width: 200px;
-    height: 35px;
+    height: 33px;
     padding: 0;
-    padding-left: 10px;
+    text-indent: 6px;
     border-radius: 7px;
-    border: 2px solid #e1e6ea;
+    border: 1px solid #e1e6ea;
     font-size: 15px;
+    margin-right: 12px;
 }
-
+input::placeholder {
+    color: #BDBDBD;
+    font-size: 13px;
+}
 .btn {
-    width: 100px;
-    height: 35px;
-    background-color: whitesmoke;
-    border: 2px solid #e1e6ea;
+    width: 94px;
+    height: 32px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px -3px rgba(0,0,0,1);
+    border-style: none;
     border-radius: 7px;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 500;
     opacity: 1;
 }
 .btn:hover {
     opacity: 0.8;
 }
 
+
+.first3 {
+    margin: 23px;
+    display: flex;
+}
 .viewImg {
     display: inline-block;
-    width: 200px;
-    height: 100px;
+    width: 176px;
+    height: 80px;
     background-color: #D6E5FA;
     border-radius: 7px;
-    border: 2px solid #e1e6ea;
+    border: 1px solid #e1e6ea;
+    padding: 12px;
     overflow: scroll;
+    margin-right: 12px;
 }
-
+.getDrinkBox {
+    background-color: #FFFFFF;
+    width: 170px;
+    height: 46px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.getDrinkBox > img {
+    margin: 0 10px;
+}
+.colaName {
+    color: #333333;
+    font-size: 9px;
+}
+.count {
+    font-size: 14px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    padding: 4px 11px 6px 11px;
+    margin-left: auto;
+    margin-right: 10px;
+}
 .btn.get {
     background-color: #0e7be3;
-    height: 100px;
-    color: whitesmoke;
+    height: 106px;
+    color: #FFFFFF;
 }
 
 /* second */
 .showValue.long {
-    width: 300px;
+    width: 306px;
+    height: 32px;
+    margin: 9px 27px;
 }
 
 /* third */
 .getDrinks {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
 }
 .viewImg.big {
-    width: 300px;
-    height: 400px;
+    width: 306px;
+    height: 364px;
+    padding: 0;
+}
+.getDrinkBox.long {
+    width: 276px;
+}
+.total {
+    text-align: right;
 }
