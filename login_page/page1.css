@@ -1,0 +1,71 @@
+body {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 15px;
+}
+
+main {
+    width: 350px;
+    padding: 18px 15px 17px 15px;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+main .loginbtn {
+    background: #711BFF;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 0 12px 0;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 15px;
+    text-align: center;
+    margin: 16px 0 17px 0;
+}
+.loginbtn > img {
+    vertical-align: bottom;
+    width: 64px;
+    height: 18px;
+}
+
+.lastline {
+    position: relative;
+}
+.lastline > img {
+    vertical-align: bottom;
+}
+.lastline > a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #767676;
+}
+.id {
+    margin-left: 6px;
+    margin-right: 12px;
+}
+.id::after {
+    content: '';
+    width: 1px;
+    height: 12px;
+    position: absolute;
+    bottom: 2px;
+    left: 58px;
+    background-color: #767676;
+    
+}
+.user_img {
+    width: 16px;
+    height: 16px;
+    padding-right: 6px;
+    vertical-align: bottom;
+}
+.signup {
+    position: absolute;
+    right: 0;
+}
