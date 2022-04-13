@@ -20,12 +20,15 @@ header {
 
 section {
     padding: 5px;
-    border: 1px solid pink;
 }
 
 h4 {
     margin-block-end: 7px;
     font-size: 14px;
+}
+
+#pw:focus {
+    outline: 1px solid rgb(23, 193, 23);
 }
 
 input, select[name="gender"], select[name="nation"] {
