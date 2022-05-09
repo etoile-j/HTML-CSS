@@ -28,8 +28,18 @@ let data = [{
 
 // 1. 중간고사 점수를 하나의 array로 만들어주세요.
 console.log(data.map(x => x.중간고사점수))
+//for로
+arr1 = [];
+for (let i = 0; i < data.length; i++) {
+    arr1.push(data[i]['중간고사점수']);
+}
+console.log(arr1);
 
 // 2. 이름과 중간고사 점수를 하나의 array로 만들어주세요.
 console.log(data.map(x => [x.이름, x.중간고사점수]))
-
-// (나아가기) 3. 중간고사점수의 표준편차를 구해주세요. 또 어떻게 구하는 것이 효율적일지 고민해주세요.
+//for로
+arr2 = [];
+for (let i = 0; i < data.length; i++) {
+    arr2.push([data[i]['이름'], data[i]['중간고사점수']]);
+}
+console.log(arr2);
