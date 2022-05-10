@@ -86,5 +86,14 @@ for(let i=0;i<users.length;i++) {
 console.log(avgAge/users.length);
 
 // 5. (더 나아가기) user의 성비를 구해주세요.
-
+let male = 0;
+let female = 0;
+for(let i=0;i<users.length;i++) {
+    if(users[i]['gender']=='male') {
+        male += 1;
+    } else {
+        female += 1;
+    }
+}
+console.log(`${male / female * 100}%`);
 //(A÷B×100)..이게 맞나 A남인구 B여인구
