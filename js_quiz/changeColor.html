@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <article class="hihi">
+        <div class="colorBox"></div>
+        <button>하늘</button>
+        <button class="yellow">노랑</button>
+        <button class="blue">파랑</button>
+    </article>
+    <script>
+        const box = document.querySelector("div");
+        const skyblue = document.querySelector("button");
+        const yellow = document.querySelector(".yellow");
+        const blue = document.querySelector(".blue");
+
+        skyblue.addEventListener('click', function() {
+            box.classList.remove("skyblue", "yellowC", "blueC");
+            box.classList.add("skyblue");
+        })
+        yellow.addEventListener('click', function() {
+            box.classList.remove("skyblue", "yellowC", "blueC");
+            box.classList.add("yellowC");
+        })
+        blue.addEventListener('click', function() {
+            box.classList.remove("skyblue", "yellowC", "blueC");
+            box.classList.add("blueC");
+        })
+    </script>
+</body>
+</html>
